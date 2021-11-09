@@ -35,10 +35,55 @@
    <div class="container">
       <h3><span class="title-border-bottom">Media</span></h3>
       <div class="content-row">
-         <div class="row">
-            <div class="col-sm-4">
+         <div class="media-slider">
+            <div>
                <div class="media-wrapper">
                   <img src="./img/post-1.jpg" class="img-fluid">
+                  <h4>57th Nehru Cup Announced</h4>
+                  <p class="small">12th August 2021</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra ante vitae odio consequat, at pretium dolor pellentesque. In efficitur, ipsum eget pellentesque pulvinar, eros libero ultrices lectus</p>
+                  <a href="#" class="btn btn-cta">Read More</a>
+               </div>
+            </div>
+            <div>
+               <div class="media-wrapper">
+                  <img src="./img/post-2.jpg" class="img-fluid">
+                  <h4>57th Nehru Cup Announced</h4>
+                  <p class="small">12th August 2021</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra ante vitae odio consequat, at pretium dolor pellentesque. In efficitur, ipsum eget pellentesque pulvinar, eros libero ultrices lectus</p>
+                  <a href="#" class="btn btn-cta">Read More</a>
+               </div>
+            </div>
+            <div>
+               <div class="media-wrapper">
+                  <img src="./img/post-3.jpg" class="img-fluid">
+                  <h4>57th Nehru Cup Announced</h4>
+                  <p class="small">12th August 2021</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra ante vitae odio consequat, at pretium dolor pellentesque. In efficitur, ipsum eget pellentesque pulvinar, eros libero ultrices lectus</p>
+                  <a href="#" class="btn btn-cta">Read More</a>
+               </div>
+            </div>
+            <div>
+               <div class="media-wrapper">
+                  <img src="./img/post-1.jpg" class="img-fluid">
+                  <h4>57th Nehru Cup Announced</h4>
+                  <p class="small">12th August 2021</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra ante vitae odio consequat, at pretium dolor pellentesque. In efficitur, ipsum eget pellentesque pulvinar, eros libero ultrices lectus</p>
+                  <a href="#" class="btn btn-cta">Read More</a>
+               </div>
+            </div>
+            <div>
+               <div class="media-wrapper">
+                  <img src="./img/post-2.jpg" class="img-fluid">
+                  <h4>57th Nehru Cup Announced</h4>
+                  <p class="small">12th August 2021</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra ante vitae odio consequat, at pretium dolor pellentesque. In efficitur, ipsum eget pellentesque pulvinar, eros libero ultrices lectus</p>
+                  <a href="#" class="btn btn-cta">Read More</a>
+               </div>
+            </div>
+            <div>
+               <div class="media-wrapper">
+                  <img src="./img/post-3.jpg" class="img-fluid">
                   <h4>57th Nehru Cup Announced</h4>
                   <p class="small">12th August 2021</p>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra ante vitae odio consequat, at pretium dolor pellentesque. In efficitur, ipsum eget pellentesque pulvinar, eros libero ultrices lectus</p>
@@ -60,6 +105,34 @@
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
    <script src='./inc/defaultnav.js'></script>
+
+
+   <script>
+        $('.media-slider').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: false,
+            autoplaySpeed: 5000,
+            pauseOnHover:true,
+            dots: false,
+            fade: false,
+            arrows: true,
+            infinite: true,
+            loop: true,
+            lazyLoad: 'ondemand',
+            lazyLoadBuffer: 1,
+            responsive:[
+            {
+               breakpoint:480,
+               settings:
+               {
+                  slidesToShow:1,
+                  slidesToScroll:1,
+               }
+            }
+         ]
+        });
+    </script>
 
    
 </body>

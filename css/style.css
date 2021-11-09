@@ -155,6 +155,151 @@ button:focus{
 /*Button CSS ENDS*/
 
 
+/*slider css : BEGIN*/
+
+.slider-container{
+    position: relative;
+}
+
+.slick-arrow {
+    background: transparent;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    color: #1D1818;
+    z-index: 1;
+    border: 0;
+    font-size: 0;
+    outline: none;
+    font-family: "Font Awesome 5 Free";
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -moz-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.12);
+    -webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.12);
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    opacity:1;
+}
+
+@media(max-width: 425px){
+    .slick-arrow{
+        top: 0;
+    }
+}
+
+.slick-arrow.slick-prev {
+    left: -50px
+}
+
+@media(max-width: 425px){
+    .slick-arrow.slick-prev {
+    left: -15px;
+    }
+}
+
+.slick-arrow.slick-prev:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f053";
+    color: #bf8e2a;
+    font-size: 16px;
+    line-height: 2.2;
+    font-weight: 900;
+}
+
+.slick-arrow.slick-next {
+    right: -50px
+}
+
+@media(max-width: 425px){
+.slick-arrow.slick-next {
+    right: -15px;
+    }
+}
+
+.slick-arrow.slick-next:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f054";
+    color: #bf8e2a;
+    font-size: 16px;
+    line-height: 2.2;
+    font-weight: 900;
+}
+
+
+
+
+
+.slick-dots {
+    text-align: center;
+    padding: 0;
+    margin-bottom: 15px
+}
+
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 0 2px;
+    padding: 0;
+    cursor: pointer
+}
+
+.slick-dots li:only-child {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0
+}
+
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 12px;
+    height: 12px;
+    padding: 0px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent
+}
+
+.slick-dots li button:before,
+.slick-dots li button::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    bottom: 0px;
+    left: 0;
+    right: 0px;
+    left: 0px;
+    margin: auto auto;
+    width: 6px;
+    height: 6px;
+    background: none;
+    background: #333434;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%
+}
+
+.slick-dots li.slick-active button:before,
+.slick-dots li.slick-active button::before {
+    background: #0F4478;
+    width: 12px;
+    height: 12px
+}
+
+
+/*slider css : END*/
+
 
 
 /*Header CSS BEGINS*/
@@ -241,10 +386,25 @@ button:focus{
 
 /*Media Page CSS BEGINS*/
 
+
+@media(min-width: 600px){
+    .media-wrapper{
+        margin-right: 55px;
+    }
+}
+
 .media-wrapper h4{
     margin-bottom: 0px;
     margin-top: 10px;
 }
+
+.media-wrapper img{
+    width: 100%;
+}
+
+    .media-wrapper{
+        padding: 0 30px;
+    }
 
 /*Media Page CSS ENDS*/
 
