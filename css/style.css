@@ -336,12 +336,24 @@ button:focus{
     padding: 0.5rem 0.8rem !important;
 }
 
+.navbar-nav .nav-item:last-child .nav-link{
+    padding-right: 0 !important
+}
 
 .navbar-nav{
     margin-top: 35px;
 }
 
 
+
+@media(max-width: 480px){
+    .header-logo{
+        width: 170px;
+    }
+    .stickymain .header-logo{
+        width: 130px;
+    }
+}
 
 /*Header CSS ENDS*/
 
@@ -351,6 +363,14 @@ button:focus{
 
 #banner{
     background: #EED7A3;
+}
+
+.home-banner{
+    padding: 90px 0px
+}
+
+.home-section{
+    padding: 90px 0px
 }
 
 
@@ -381,8 +401,77 @@ button:focus{
     display: block;
 }
 
+.core-values p{
+     padding-right: 15px;
+     padding-left: 15px;
+     font-size: 18px;
+     border-right: 1px solid #000;
+    }
+
+    .core-values p:first-child{
+        padding-left: 0;
+    }
+
+    .core-values p:last-child{
+        border-right: 0;
+    }
+
+    .about-list li{
+        line-height: 28px;
+        margin-bottom: 8px;
+        position: relative;
+    }
+
+    .about-list{
+        list-style-type: none;
+    }
+
+    .about-list li:before{
+        content: '-';
+        color: #000;
+        position: absolute;
+        top: 0;
+        left: -25px;
+        display: block;
+    }
+
+    @media(max-width: 480px){
+        .core-values p{
+            padding-left: 8px;
+            padding-right: 8px;
+        }
+    }
+
 /*About Page CSS ENDS*/
 
+
+/*Automotives Page CSS BEGINS*/
+
+
+@media(min-width: 1900px){
+    .banner-title{
+        top: 345px !important
+    }
+}
+
+
+.banner-title{
+    color: #fff;
+    background: #032960;
+    padding: 10px 30px;
+    position: absolute;
+    top: 215px;
+    right: 0;
+}
+
+
+@media(max-width: 320px){
+    .banner-title{
+        font-size: 22px;
+    }
+}
+
+/*Automotives Page CSS ENDS*/
 
 /*Media Page CSS BEGINS*/
 
