@@ -373,6 +373,32 @@ button:focus{
     padding: 90px 0px
 }
 
+@media(min-width: 1900px){
+    .pos-bottom{
+        top: 180px !important;
+    }
+}
+.pos-top{
+    position: absolute;
+    top: -80px;
+    left: -60px;
+}
+
+.pos-bottom{
+    position: absolute;
+    top: 190px;
+    width: 100%;
+}
+
+@media(max-width: 480px){
+   .pos-top{
+    position: initial;
+   } 
+   .pos-bottom{
+    position: initial;
+   }
+}
+
 
 /*Home Page CSS ENDS*/
 
