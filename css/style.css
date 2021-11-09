@@ -50,7 +50,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'dutch809_btbold';
+    font-family: 'dutch809_btroman';
     font-weight: 400;
     font-size: 28px;
     color: #032960;
@@ -58,17 +58,18 @@ h2 {
 }
 
 h3 {
-    font-family: 'dutch809_btbold';
+    font-family: 'dutch809_btroman';
     font-weight: 400;
     font-size: 22px;
-    color: #212529;
+    color: #032960;
+    margin-bottom: 30px;
 }
 
 h4 {
-    font-family: 'dutch809_btbold';
+    font-family: 'dutch809_btroman';
     font-weight: 400;
     font-size: 18px;
-    color: #212529;
+    color: #032960;
     line-height: 1.5;
 }
 h5 {
@@ -208,6 +209,33 @@ button:focus{
 
 
 /*Home Page CSS ENDS*/
+
+
+
+/*About Page CSS BEGINS*/
+
+.img-text{
+    color: #C19231;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.title-border-bottom{
+    position: relative;
+}
+
+.title-border-bottom:before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: #BF8E2A;
+    display: block;
+}
+
+/*About Page CSS ENDS*/
 
 
 
