@@ -13,8 +13,15 @@ const Header = ({ headerNav }) =>
                   <li class="nav-item link-about">
                     <a class="nav-link" href="./about-us.html">About Us</a>
                   </li>
-                  <li class="nav-item link-business">
-                    <a class="nav-link" href="./management.html">Business</a>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Business
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="./management.html">Management</a>
+                      <a class="dropdown-item" href="./automotives.html">Automotives</a>
+                      <a class="dropdown-item" href="real-estate.html">Real Estate</a>
+                    </div>
                   </li>
                   <li class="nav-item link-csr">
                     <a class="nav-link" href="#">CSR</a>
@@ -23,7 +30,7 @@ const Header = ({ headerNav }) =>
                     <a class="nav-link" href="./media.html">Media</a>
                   </li>
                   <li class="nav-item link-contact">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="./contact.html">Contact</a>
                   </li>
                 </ul>
               </div>

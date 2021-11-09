@@ -345,6 +345,23 @@ button:focus{
 }
 
 
+.dropdown-menu{
+    /*padding: 0;*/
+    border: 0;
+    border-radius: 0;
+}
+
+.dropdown-item{
+    padding: 0.35rem 1.5rem;
+}
+
+.dropdown-item:hover{
+    background: #fef0cc;
+}
+
+.dropdown-item:focus{
+    background: #eed7a3;
+}
 
 @media(max-width: 480px){
     .header-logo{
@@ -365,12 +382,14 @@ button:focus{
     background: #EED7A3;
 }
 
-.home-banner{
-    padding: 90px 0px
-}
+@media(min-width: 1900px){
+    .home-banner{
+        padding: 130px 0px
+    }
 
-.home-section{
-    padding: 90px 0px
+    .home-section{
+        padding: 130px 0px
+    }
 }
 
 @media(min-width: 1900px){
