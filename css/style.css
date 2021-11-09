@@ -1,0 +1,240 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+    background: #FEF0CC;
+}
+
+@font-face {
+    font-family: 'dutch809_btroman';
+    src: url('../fonts/dut809n-webfont.woff2') format('woff2'),
+         url('../fonts/dut809n-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'dutch809_btbold';
+    src: url('../fonts/dut809b-webfont.woff2') format('woff2'),
+         url('../fonts/dut809b-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'dutch809_btitalic';
+    src: url('../fonts/dut809i-webfont.woff2') format('woff2'),
+         url('../fonts/dut809i-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'dutch809_btroman';
+    color: #707070;
+                                                
+}
+
+h1 {
+    font-family: 'dutch809_btbold';
+    font-weight: 400;
+    font-size: 32px;
+    color: #fff;
+}
+
+h2 {
+    font-family: 'dutch809_btbold';
+    font-weight: 400;
+    font-size: 30px;
+    color: #191A19;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-family: 'dutch809_btbold';
+    font-weight: 400;
+    font-size: 22px;
+    color: #212529;
+}
+
+h4 {
+    font-family: 'dutch809_btbold';
+    font-weight: 400;
+    font-size: 18px;
+    color: #212529;
+    line-height: 1.5;
+}
+h5 {
+    font-family: 'dutch809_btbold';
+    font-weight: 400;
+    font-size: 18px;
+    color: #212529;
+}
+h6 {
+    font-family: 'dutch809_btbold';
+    font-weight: 400;
+    font-size: 16px;
+    color: #11308b;
+}
+
+p {
+    font-family: 'dutch809_btroman';
+    font-weight: 300;
+    font-size: 16px;
+}
+
+a {
+    color: #0072bc;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+section{
+    padding: 60px 0px;
+    overflow: hidden;
+}
+
+.bg-light{
+    background: #ECF2E7 !important;
+}
+
+.bg-blue{
+    background: #222B61;
+}
+
+.text-gold{
+    color: #DCB256 !important;
+}
+
+@media(min-width: 1900px){
+    .container{
+        max-width: 1550px !important;
+    }
+}
+
+
+/*Button CSS BEGINS*/
+
+.btn-knowmore{
+    background: transparent;
+    font-size: 15px;
+    color: #9DA09C;
+    font-weight: 300;
+    border: 1px solid #ddd;
+    padding: 10px 35px;
+}
+
+.knowmore-arrow{
+    padding: 10px 14px;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    padding-top: 5px;
+    margin-left: 10px;
+}
+.knowmore-arrow i{
+    transform: rotate(270deg);
+    position: relative;
+    left: -2px;
+    top: 3px;
+}
+
+button:focus{
+    outline: none !important;
+}
+
+/*Button CSS ENDS*/
+
+
+
+
+/*Header CSS BEGINS*/
+
+.main-header{
+    padding: 30px 0px;
+    width: 100%;
+    transition: .3s all ease-in-out;
+    /*background: rgb(255 255 255 / 50%);*/
+}
+
+.stickymain {
+    position: fixed !important;
+    top: 0;
+    width: 100% !important;
+    z-index: 99;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 11%);
+    background: #fff;
+    padding: 10px 0px;
+    transition: .3s all ease-in-out;
+}
+
+.header-logo{
+    width: 230px;
+}
+
+
+.stickymain .header-logo{
+    width: 200px;
+}
+
+.navbar-nav .nav-link{
+    color: #000;
+    padding: 0.5rem 0.8rem !important;
+}
+
+
+.navbar-nav{
+    margin-top: 35px;
+}
+
+
+
+/*Header CSS ENDS*/
+
+
+
+/*Home Page CSS BEGINS*/
+
+#banner{
+    background: #EED7A3;
+}
+
+
+/*Home Page CSS ENDS*/
+
+
+
+/*Footer CSS BEGINS*/
+
+footer{
+    background: #032960;
+}
+
+footer p{
+    color: #fff;
+    margin-bottom: 0;
+    padding: 10px 0px;
+    font-size: 14px;
+}
+
+/*Footer CSS ENDS*/
+
+
+
+
+
+
+
+
+
+
+
+
+
